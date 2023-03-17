@@ -1,0 +1,49 @@
+.header__list{
+    display: flex;
+    list-style: none;
+}
+
+
+li { 
+    margin-left: 1em;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    color: #00008B;
+    margin-left: 1em;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+.firstview--relative {
+    position: relative;
+}
+
+.firstview__title{
+    font-size: 600%;
+    font-family: 'Gorditas', cursive;
+    font-family: 'Noto Serif JP', serif;
+    margin-bottom: 0px;
+}
+
+.firstview__box-under{
+    width: 75%;
+    height: 300px;
+    background-color: #00008B;
+    z-index: 0;
+    margin-top: 0px;
+}
+
+.firstview___img--absolute {
+    position: absolute;
+    right: 0px;
+    bottom:50% ;
+    z-index: 10;
+    width: 50%;
+}
